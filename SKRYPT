@@ -1,0 +1,6 @@
+let liczbaWyswietlen = prompt("Poniżej wpisz liczbę wyświetleń, którą chcesz otrzymać (max 1000)");
+if (liczbaWyswietlen > 1000) {
+alert("Przekroczyłeś maxymalną ilość wyświetleń!")
+   } else {
+alert("Twoje " + liczbaWyswietlen + " wyświetleń zostanie dodane w ciągu 10 minut")
+}
